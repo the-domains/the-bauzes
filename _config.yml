@@ -1,28 +1,40 @@
-name: The Bauzes
-favicon: null
-layout_spectrum: 0.8117400519549847
-typography_spectrum: 0.1464235174935311
-cta:
-  domain: null
-  bucket: null
-  version: null
-analytics:
-  google: null
-  facebook: null
-  twitter: null
-opengraph:
-  image: null
-  type: null
-  appId: null
+purpose: []
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
 color:
+  saturation: 0.6897133
+  brandStrength: 0.8200305260252208
+  lightness: 0.4629005
   brandColors:
     - '#FF6700'
     - '#EBEBEB'
     - '#C0C0C0'
     - '#3A6EA5'
     - '#004E98'
-  brandStrength: 0.8200305260252208
-  lightness: 0.3134819364640862
-  saturation: 0.38586938311345875
-  rhythmicContrast: 0.9849972503725439
-purpose: []
+  rhythmicContrast: 0.9849973
+cta:
+  bucket: null
+  version: null
+  domain: null
+favicon: null
+analytics:
+  twitter: null
+  google: null
+  facebook: null
+name: The Bauzes
+opengraph:
+  image: null
+  type: null
+  appId: null
+typography_spectrum: 0.420742
+layout_spectrum: 0.188027
